@@ -73,6 +73,7 @@ public class Gui {
 	 */
 	protected void createContents() {
 		shell = new Shell(SWT.CLOSE);
+		shell.setImage(SWTResourceManager.getImage(Gui.class, "/photos-icon.png"));
 		shell.setSize(236, 258);
 		shell.setText("Organizador de Fotos");
 		final FillLayout fillLayoutShell = new FillLayout(SWT.HORIZONTAL);
